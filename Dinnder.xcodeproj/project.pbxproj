@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31B321CF25228DEE0056F328 /* DinnderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B321CE25228DEE0056F328 /* DinnderApp.swift */; };
+		31B321D125228DEE0056F328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B321D025228DEE0056F328 /* ContentView.swift */; };
+		31B321D325228DF00056F328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B321D225228DF00056F328 /* Assets.xcassets */; };
+		31B321D625228DF00056F328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B321D525228DF00056F328 /* Preview Assets.xcassets */; };
+		31B321E125228DF10056F328 /* DinnderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B321E025228DF10056F328 /* DinnderTests.swift */; };
+		31B321EC25228DF10056F328 /* DinnderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B321EB25228DF10056F328 /* DinnderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31B321DD25228DF10056F328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31B321C325228DEE0056F328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B321CA25228DEE0056F328;
+			remoteInfo = Dinnder;
+		};
+		31B321E825228DF10056F328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31B321C325228DEE0056F328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B321CA25228DEE0056F328;
+			remoteInfo = Dinnder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31B321CB25228DEE0056F328 /* Dinnder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinnder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B321CE25228DEE0056F328 /* DinnderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnderApp.swift; sourceTree = "<group>"; };
+		31B321D025228DEE0056F328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31B321D225228DF00056F328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31B321D525228DF00056F328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31B321D725228DF00056F328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B321DC25228DF10056F328 /* DinnderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B321E025228DF10056F328 /* DinnderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnderTests.swift; sourceTree = "<group>"; };
+		31B321E225228DF10056F328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B321E725228DF10056F328 /* DinnderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B321EB25228DF10056F328 /* DinnderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnderUITests.swift; sourceTree = "<group>"; };
+		31B321ED25228DF10056F328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31B321C825228DEE0056F328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B321D925228DF10056F328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B321E425228DF10056F328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31B321C225228DEE0056F328 = {
+			isa = PBXGroup;
+			children = (
+				31B321CD25228DEE0056F328 /* Dinnder */,
+				31B321DF25228DF10056F328 /* DinnderTests */,
+				31B321EA25228DF10056F328 /* DinnderUITests */,
+				31B321CC25228DEE0056F328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31B321CC25228DEE0056F328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31B321CB25228DEE0056F328 /* Dinnder.app */,
+				31B321DC25228DF10056F328 /* DinnderTests.xctest */,
+				31B321E725228DF10056F328 /* DinnderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31B321CD25228DEE0056F328 /* Dinnder */ = {
+			isa = PBXGroup;
+			children = (
+				31B321CE25228DEE0056F328 /* DinnderApp.swift */,
+				31B321D025228DEE0056F328 /* ContentView.swift */,
+				31B321D225228DF00056F328 /* Assets.xcassets */,
+				31B321D725228DF00056F328 /* Info.plist */,
+				31B321D425228DF00056F328 /* Preview Content */,
+			);
+			path = Dinnder;
+			sourceTree = "<group>";
+		};
+		31B321D425228DF00056F328 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31B321D525228DF00056F328 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31B321DF25228DF10056F328 /* DinnderTests */ = {
+			isa = PBXGroup;
+			children = (
+				31B321E025228DF10056F328 /* DinnderTests.swift */,
+				31B321E225228DF10056F328 /* Info.plist */,
+			);
+			path = DinnderTests;
+			sourceTree = "<group>";
+		};
+		31B321EA25228DF10056F328 /* DinnderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31B321EB25228DF10056F328 /* DinnderUITests.swift */,
+				31B321ED25228DF10056F328 /* Info.plist */,
+			);
+			path = DinnderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31B321CA25228DEE0056F328 /* Dinnder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B321F025228DF10056F328 /* Build configuration list for PBXNativeTarget "Dinnder" */;
+			buildPhases = (
+				31B321C725228DEE0056F328 /* Sources */,
+				31B321C825228DEE0056F328 /* Frameworks */,
+				31B321C925228DEE0056F328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dinnder;
+			productName = Dinnder;
+			productReference = 31B321CB25228DEE0056F328 /* Dinnder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31B321DB25228DF10056F328 /* DinnderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B321F325228DF10056F328 /* Build configuration list for PBXNativeTarget "DinnderTests" */;
+			buildPhases = (
+				31B321D825228DF10056F328 /* Sources */,
+				31B321D925228DF10056F328 /* Frameworks */,
+				31B321DA25228DF10056F328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31B321DE25228DF10056F328 /* PBXTargetDependency */,
+			);
+			name = DinnderTests;
+			productName = DinnderTests;
+			productReference = 31B321DC25228DF10056F328 /* DinnderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31B321E625228DF10056F328 /* DinnderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B321F625228DF10056F328 /* Build configuration list for PBXNativeTarget "DinnderUITests" */;
+			buildPhases = (
+				31B321E325228DF10056F328 /* Sources */,
+				31B321E425228DF10056F328 /* Frameworks */,
+				31B321E525228DF10056F328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31B321E925228DF10056F328 /* PBXTargetDependency */,
+			);
+			name = DinnderUITests;
+			productName = DinnderUITests;
+			productReference = 31B321E725228DF10056F328 /* DinnderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31B321C325228DEE0056F328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					31B321CA25228DEE0056F328 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					31B321DB25228DF10056F328 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 31B321CA25228DEE0056F328;
+					};
+					31B321E625228DF10056F328 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 31B321CA25228DEE0056F328;
+					};
+				};
+			};
+			buildConfigurationList = 31B321C625228DEE0056F328 /* Build configuration list for PBXProject "Dinnder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31B321C225228DEE0056F328;
+			productRefGroup = 31B321CC25228DEE0056F328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31B321CA25228DEE0056F328 /* Dinnder */,
+				31B321DB25228DF10056F328 /* DinnderTests */,
+				31B321E625228DF10056F328 /* DinnderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31B321C925228DEE0056F328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B321D625228DF00056F328 /* Preview Assets.xcassets in Resources */,
+				31B321D325228DF00056F328 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B321DA25228DF10056F328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B321E525228DF10056F328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31B321C725228DEE0056F328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B321D125228DEE0056F328 /* ContentView.swift in Sources */,
+				31B321CF25228DEE0056F328 /* DinnderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B321D825228DF10056F328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B321E125228DF10056F328 /* DinnderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B321E325228DF10056F328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B321EC25228DF10056F328 /* DinnderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31B321DE25228DF10056F328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B321CA25228DEE0056F328 /* Dinnder */;
+			targetProxy = 31B321DD25228DF10056F328 /* PBXContainerItemProxy */;
+		};
+		31B321E925228DF10056F328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B321CA25228DEE0056F328 /* Dinnder */;
+			targetProxy = 31B321E825228DF10056F328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31B321EE25228DF10056F328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31B321EF25228DF10056F328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31B321F125228DF10056F328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dinnder/Preview Content\"";
+				DEVELOPMENT_TEAM = QWA9TLV8T5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Dinnder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MorganMacArthur.Dinnder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31B321F225228DF10056F328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dinnder/Preview Content\"";
+				DEVELOPMENT_TEAM = QWA9TLV8T5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Dinnder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MorganMacArthur.Dinnder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31B321F425228DF10056F328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWA9TLV8T5;
+				INFOPLIST_FILE = DinnderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MorganMacArthur.DinnderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dinnder.app/Dinnder";
+			};
+			name = Debug;
+		};
+		31B321F525228DF10056F328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWA9TLV8T5;
+				INFOPLIST_FILE = DinnderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MorganMacArthur.DinnderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dinnder.app/Dinnder";
+			};
+			name = Release;
+		};
+		31B321F725228DF10056F328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWA9TLV8T5;
+				INFOPLIST_FILE = DinnderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MorganMacArthur.DinnderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dinnder;
+			};
+			name = Debug;
+		};
+		31B321F825228DF10056F328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWA9TLV8T5;
+				INFOPLIST_FILE = DinnderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MorganMacArthur.DinnderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dinnder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31B321C625228DEE0056F328 /* Build configuration list for PBXProject "Dinnder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B321EE25228DF10056F328 /* Debug */,
+				31B321EF25228DF10056F328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B321F025228DF10056F328 /* Build configuration list for PBXNativeTarget "Dinnder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B321F125228DF10056F328 /* Debug */,
+				31B321F225228DF10056F328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B321F325228DF10056F328 /* Build configuration list for PBXNativeTarget "DinnderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B321F425228DF10056F328 /* Debug */,
+				31B321F525228DF10056F328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B321F625228DF10056F328 /* Build configuration list for PBXNativeTarget "DinnderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B321F725228DF10056F328 /* Debug */,
+				31B321F825228DF10056F328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31B321C325228DEE0056F328 /* Project object */;
+}
