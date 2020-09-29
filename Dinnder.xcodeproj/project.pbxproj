@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3176CCDD2522F6BD00C66DFF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176CCDC2522F6BD00C66DFF /* CircleImage.swift */; };
 		3176CCE22522F9DF00C66DFF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176CCE12522F9DF00C66DFF /* MapView.swift */; };
+		3176CCE72523D1BC00C66DFF /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176CCE62523D1BC00C66DFF /* Restaurant.swift */; };
 		31B321CF25228DEE0056F328 /* DinnderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B321CE25228DEE0056F328 /* DinnderApp.swift */; };
 		31B321D125228DEE0056F328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B321D025228DEE0056F328 /* ContentView.swift */; };
 		31B321D325228DF00056F328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B321D225228DF00056F328 /* Assets.xcassets */; };
@@ -35,8 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3176CCDC2522F6BD00C66DFF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3176CCE12522F9DF00C66DFF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3176CCE62523D1BC00C66DFF /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		31B321CB25228DEE0056F328 /* Dinnder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinnder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B321CE25228DEE0056F328 /* DinnderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnderApp.swift; sourceTree = "<group>"; };
 		31B321D025228DEE0056F328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 				31B321D225228DF00056F328 /* Assets.xcassets */,
 				31B321D725228DF00056F328 /* Info.plist */,
 				31B321D425228DF00056F328 /* Preview Content */,
-				3176CCDC2522F6BD00C66DFF /* CircleImage.swift */,
+				3176CCE62523D1BC00C66DFF /* Restaurant.swift */,
 				3176CCE12522F9DF00C66DFF /* MapView.swift */,
 			);
 			path = Dinnder;
@@ -265,10 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3176CCE72523D1BC00C66DFF /* Restaurant.swift in Sources */,
 				31B321D125228DEE0056F328 /* ContentView.swift in Sources */,
 				3176CCE22522F9DF00C66DFF /* MapView.swift in Sources */,
 				31B321CF25228DEE0056F328 /* DinnderApp.swift in Sources */,
-				3176CCDD2522F6BD00C66DFF /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

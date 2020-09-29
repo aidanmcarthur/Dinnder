@@ -15,22 +15,11 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.top)
                 .frame(height:300)
             
-            CircleImage()
+            Restaurant(restaurantName:"Burger King", genre:"Fast Food", location:"2305 Broadway")
+                .frame(width:200.0, height:200.0)
                 .offset(y:-130)
                 .padding(.bottom, -130)
             
-            VStack(alignment: .leading) {
-                Text("Turtle Rock")
-                    .font(.title)
-                HStack {
-                    Text("Joshua Tree National Park")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("California")
-                        .font(.subheadline)
-                }
-                
-            }
             .padding()
             
             Spacer()
