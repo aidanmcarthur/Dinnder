@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    var curRestaurant = Restaurant(restaurantName:"Burger King", genre:"Fast Food", address:"2305 Broadway", location:(32.0, -116))
+    
     var body: some View {
-        
+
         VStack {
-            MapView()
+            // Map of current restaurant location
+            MapView(restaurant: curRestaurant)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height:300)
             
-            Restaurant(restaurantName:"Burger King", genre:"Fast Food", address:"2305 Broadway")
-                
+            // Current restaurant information
+            curRestaurant
                 .offset(y:-130)
-
+            
             Spacer()
         }
             

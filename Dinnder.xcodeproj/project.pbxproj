@@ -80,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3176CD012523E1C700C66DFF /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				3176CCF12523DC5900C66DFF /* ContentModel.swift */,
+				31B321D025228DEE0056F328 /* ContentView.swift */,
+				3176CCF92523DC6D00C66DFF /* ContentController.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
 		31B321C225228DEE0056F328 = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +113,8 @@
 		31B321CD25228DEE0056F328 /* Dinnder */ = {
 			isa = PBXGroup;
 			children = (
+				3176CD012523E1C700C66DFF /* MVC */,
 				31B321CE25228DEE0056F328 /* DinnderApp.swift */,
-				3176CCF12523DC5900C66DFF /* ContentModel.swift */,
-				31B321D025228DEE0056F328 /* ContentView.swift */,
-				3176CCF92523DC6D00C66DFF /* ContentController.swift */,
 				3176CCE62523D1BC00C66DFF /* Restaurant.swift */,
 				3176CCE12522F9DF00C66DFF /* MapView.swift */,
 				31B321D225228DF00056F328 /* Assets.xcassets */,
