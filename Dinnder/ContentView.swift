@@ -15,13 +15,10 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.top)
                 .frame(height:300)
             
-            Restaurant(restaurantName:"Burger King", genre:"Fast Food", location:"2305 Broadway")
-                .frame(width:200.0, height:200.0)
+            Restaurant(restaurantName:"Burger King", genre:"Fast Food", address:"2305 Broadway")
+                
                 .offset(y:-130)
-                .padding(.bottom, -130)
-            
-            .padding()
-            
+
             Spacer()
         }
             
