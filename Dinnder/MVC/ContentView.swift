@@ -3,34 +3,35 @@
 //  Dinnder
 //
 //  Created by Aidan McArthur on 9/28/20.
-//
+//  Viewer for app function
 
 import SwiftUI
 
 struct ContentView: View {
-
-    var curRestaurant = Restaurant(restaurantName:"Burger King", genre:"Fast Food", address:"2305 Broadway", location:(32.0, -116))
+    let model: ContentModel
+    let controller: ContentController
+    
+    var curCard: ContentCard?
+    var nextCard: ContentCard?
+    
+    // Constructor for viewer in MVC
+    init(model: ContentModel, controller: ContentController){
+        self.model = model
+        self.controller = controller
+        
+        // TOFIX: Temporary assignments NOT FOR PRODUCTION
+        curCard = nil
+        nextCard = nil
+    }
     
     var body: some View {
-
-        VStack {
-            // Map of current restaurant location
-            MapView(restaurant: curRestaurant)
-                .edgesIgnoringSafeArea(.top)
-                .frame(height:300)
-            
-            // Current restaurant information
-            curRestaurant
-                .offset(y:-130)
-            
-            Spacer()
+        
+        // Stack of content cards for restaurants
+        ZStack(){
+            curCard
+            nextCard
         }
             
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

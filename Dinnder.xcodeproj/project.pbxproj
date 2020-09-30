@@ -11,6 +11,7 @@
 		3176CCE72523D1BC00C66DFF /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176CCE62523D1BC00C66DFF /* Restaurant.swift */; };
 		3176CCF22523DC5900C66DFF /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176CCF12523DC5900C66DFF /* ContentModel.swift */; };
 		3176CCFA2523DC6D00C66DFF /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176CCF92523DC6D00C66DFF /* ContentController.swift */; };
+		3176CD062523F58700C66DFF /* ContentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176CD052523F58700C66DFF /* ContentCard.swift */; };
 		31B321CF25228DEE0056F328 /* DinnderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B321CE25228DEE0056F328 /* DinnderApp.swift */; };
 		31B321D125228DEE0056F328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B321D025228DEE0056F328 /* ContentView.swift */; };
 		31B321D325228DF00056F328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B321D225228DF00056F328 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		3176CCE62523D1BC00C66DFF /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		3176CCF12523DC5900C66DFF /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		3176CCF92523DC6D00C66DFF /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
+		3176CD052523F58700C66DFF /* ContentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCard.swift; sourceTree = "<group>"; };
 		31B321CB25228DEE0056F328 /* Dinnder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinnder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B321CE25228DEE0056F328 /* DinnderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnderApp.swift; sourceTree = "<group>"; };
 		31B321D025228DEE0056F328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,8 +115,9 @@
 		31B321CD25228DEE0056F328 /* Dinnder */ = {
 			isa = PBXGroup;
 			children = (
-				3176CD012523E1C700C66DFF /* MVC */,
 				31B321CE25228DEE0056F328 /* DinnderApp.swift */,
+				3176CD012523E1C700C66DFF /* MVC */,
+				3176CD052523F58700C66DFF /* ContentCard.swift */,
 				3176CCE62523D1BC00C66DFF /* Restaurant.swift */,
 				3176CCE12522F9DF00C66DFF /* MapView.swift */,
 				31B321D225228DF00056F328 /* Assets.xcassets */,
@@ -281,6 +284,7 @@
 			files = (
 				3176CCE72523D1BC00C66DFF /* Restaurant.swift in Sources */,
 				3176CCFA2523DC6D00C66DFF /* ContentController.swift in Sources */,
+				3176CD062523F58700C66DFF /* ContentCard.swift in Sources */,
 				31B321D125228DEE0056F328 /* ContentView.swift in Sources */,
 				3176CCF22523DC5900C66DFF /* ContentModel.swift in Sources */,
 				3176CCE22522F9DF00C66DFF /* MapView.swift in Sources */,
