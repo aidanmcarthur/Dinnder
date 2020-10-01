@@ -25,32 +25,49 @@ struct Restaurant: View {
     
     var body: some View {
         
-        //Restaurant image
-        Image(restaurantName).resizable()
-            .clipShape(Circle())
-            .overlay(Circle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius:10)
-            .frame(width:200.0, height:200.0)
-            .padding()
-        
-        // Restaurant Info
-        VStack(alignment: .leading) {
-            Text(restaurantName)
-                .font(.largeTitle)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+        VStack(){
+            //Restaurant image
+            Image("mcdonaldsfood").resizable()
+                .frame(height: UIScreen.main.bounds.height * 0.6)
+                .aspectRatio(contentMode: .fill)
+            
+            
+            // Restaurant Info
+            VStack(alignment: .leading) {
+                Text(restaurantName)
+                    .font(.largeTitle)
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .padding(.leading, 15)
+                
+                VStack(){
+                    HStack(alignment: .top) {
+                        Text(genre)
+                            .font(.headline)
+                        Spacer()
+                        Text(address)
+                            .font(.headline)
+                    }
+                    Spacer()
+                    HStack(alignment:.top){
+                        Text("Rating: 5.0 Stars")
+                            .font(.headline)
+                        Spacer()
+                        Text("")
+                        
+                    }
+                    
+                        
+                    
+                        
+                }
+                
                 .padding(.leading, 15)
-             
-            HStack(alignment: .top) {
-                Text(genre)
-                    .font(.headline)
-                Spacer()
-                Text(address)
-                    .font(.headline)
+                .padding(.top, 10)
+                .padding(.trailing, 15)
+                           
             }
-            .padding(.leading, 15)
-            .padding(.top, 10)
-            .padding(.trailing, 15)
-                       
+            .offset(y:-20)
+            
         }
         
         
