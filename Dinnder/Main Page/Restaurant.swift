@@ -14,13 +14,15 @@ struct Restaurant: View {
     let genre: String
     let address: String
     let location: (Double, Double)
+    let rating: Float
     
     // Restaurant constructor
-    init(restaurantName:String, genre:String, address:String, location:(Double, Double)){
+    init(restaurantName:String, genre:String, address:String, location:(Double, Double), rating:Float){
         self.restaurantName = restaurantName
         self.genre = genre
         self.address = address
         self.location = location
+        self.rating = rating
     }
     
     var body: some View {
@@ -44,13 +46,17 @@ struct Restaurant: View {
                         Text(genre)
                             .font(.headline)
                         Spacer()
-                        Text(address)
+                        Text(String(format: "Rating: %.2f / 5.00", rating))
                             .font(.headline)
+                            
+                        
                     }
                     Spacer()
+                    Spacer()
                     HStack(alignment:.top){
-                        Text("Rating: 5.0 Stars")
+                        Text(address)
                             .font(.headline)
+                       
                         Spacer()
                         Text("")
                         

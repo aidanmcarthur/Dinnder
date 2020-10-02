@@ -18,7 +18,8 @@ struct ContentModel {
         
         let newRestaurant: Restaurant = restaurant
         let newMapView: MapView = MapView(restaurant: newRestaurant)
-        let newCard: ContentCard = ContentCard(restaurant: newRestaurant, mapView: newMapView)
+        var curGroup = GroupCard()
+        let newCard: ContentCard = ContentCard(restaurant: newRestaurant, mapView: newMapView, group: curGroup)
         
         contentCards.append(newCard)
         
