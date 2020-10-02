@@ -12,7 +12,7 @@ struct ContentView: View {
     let model: ContentModel
     let controller: ContentController
     
-    var curRestaurant = Restaurant(restaurantName: "mcdonalds", genre: "Fast Food", address: "1711 E Speedway Blvd", location: (32.236341, -110.946133), rating: 5.0)
+    var curRestaurant = Restaurant(restaurantName: "McDonalds", genre: "Fast Food", address: "1711 E Speedway Blvd", location: (32.236341, -110.946133), rating: 5.0)
     
     var nextRestaurant = Restaurant(restaurantName: "burgerking", genre: "Fast Food", address: "871 W Saint Marys Rd", location: (32.228837, -110.983324), rating: 5.0)
     
@@ -32,6 +32,7 @@ struct ContentView: View {
         nextCard = ContentCard(restaurant: nextRestaurant, mapView: MapView(restaurant: nextRestaurant), group: curGroup)
     }
     
+    
     var body: some View {
         
         VStack(){
@@ -48,13 +49,15 @@ struct ContentView: View {
     }
 }
 
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         var model = ContentModel()
         var controller = ContentController()
         
-        ContentView(model: model, controller: controller)
+        Group {
+            ContentView(model: model, controller: controller)
+            
+        }
         
         
     }
