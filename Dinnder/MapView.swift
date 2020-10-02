@@ -24,7 +24,7 @@ struct MapView: UIViewRepresentable {
         
         // Get latitude and longitude from restaurant object
         let coordinate = CLLocationCoordinate2D(latitude: restaurant.location.0, longitude: restaurant.location.1)
-        let span = MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
+        let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
         let region = MKCoordinateRegion(center: coordinate, span: span)
         uiView.setRegion(region, animated: true)
     }
